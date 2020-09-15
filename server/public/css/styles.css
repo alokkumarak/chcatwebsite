@@ -1,0 +1,159 @@
+/*------------------------------*/
+/* BASIC SETUP */
+/*------------------------------*/
+
+body {
+  background-color: black;
+}
+
+footer {
+  background-color: rgb(5, 2, 11);
+}
+
+.row {
+  margin-right: 0;
+}
+
+/* REUSABLE COMPONENTS */
+
+h1,
+h2,
+h3,
+h4,
+p,
+.navigation-bar a,
+i,
+.back a,
+footer {
+  color: rgba(206, 177, 143);
+}
+
+i {
+  opacity: 0.9;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+p {
+  font-size: 0.9rem;
+  text-align: justify;
+}
+
+.content,
+.button {
+  background-color: rgb(21, 12, 18);
+}
+
+/* BUTTONS */
+
+.back {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.button {
+  padding: 0.5rem;
+  text-transform: uppercase;
+  border: rgb(206, 177, 143) 1px solid;
+  border-radius: 0.25rem;
+}
+
+/* ICONS */
+
+footer i {
+  padding-right: 2rem;
+}
+
+
+/* LINKS */
+
+.navigation-bar a:hover,
+.navigation-bar a:active,
+.back a:hover,
+.back a:active,
+.link-to:hover,
+.link-to:active {
+  text-decoration: none;
+}
+
+.navigation-bar a:hover,
+.navigation-bar a:active,
+.back a:hover,
+.back a:active {
+  color: rgb(153, 170, 138);
+  transition: color 0.3s;
+}
+
+i,
+a {
+  color: rgba(153, 170, 138);
+}
+
+.section-footer i:hover,
+.section-footer i:active,
+.sectino-footer a:hover,
+.section-footer a:active {
+  color: rgba(153, 212, 176);
+  transition: color 0.3s;
+}
+
+.back a:active,
+.back a:hover {
+  background-color: rgba(206, 177, 143, 0.2);
+  transition: background-color 0.3s;
+}
+
+/* SECTION HEADER */
+
+.navigation-bar {
+  list-style: none;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(5, 2, 11);
+  position: fixed;
+  z-index: 1;
+}
+
+.navigation-bar li {
+  display: inline-block;
+  padding: 1% 2%;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+/* CONTENT */
+
+.content {
+  padding: 4rem;
+}
+
+.content h2 {
+  padding-top: 3rem;
+}
+
+.content h3 {
+  padding-bottom: 1rem;
+}
+
+/* SECTION FOOTER */
+
+.section-footer {
+  padding: 1rem 2.5rem;
+}
+
+.footer-items {
+  padding: 0 5rem;
+}
+
+.copyrightstamp p {
+  text-align: right;
+}
+
+.icons {
+  height: 5px;
+  color: rgb(153, 170, 138);
+}
