@@ -1,0 +1,5 @@
+/server/node_modules
+/server/variables.env
+/server/public/books
+/server/public/bootstrap
+/server/public/fontawesome-free
