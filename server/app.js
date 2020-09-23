@@ -8,7 +8,6 @@ const app = express();
 
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "pug");
-// app.set("vendors", path.join(__dirname, "../vendors"))
 
 app.use(express.static(path.join(__dirname, "public")));
 
